@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AdapterPatternSample.HDMI
 {
+    /// <summary>
+    /// HDMI規格
+    /// </summary>
     public interface IHDMI
     {
         void Connect();

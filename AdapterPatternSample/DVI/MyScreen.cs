@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace AdapterPatternSample.DVI
 {
-    public class OldScreen : IDVI
+    /// <summary>
+    /// 我的螢幕
+    /// </summary>
+    public class MyScreen : IDVI
     {
         public void Connect()
         {
-            Console.WriteLine("接上DVI螢幕");
+            Console.WriteLine("螢幕故障連接失敗");
         }
     }
 }

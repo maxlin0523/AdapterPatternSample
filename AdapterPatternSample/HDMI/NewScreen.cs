@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace AdapterPatternSample.HDMI
 {
+    /// <summary>
+    /// 新的螢幕
+    /// </summary>
     public class NewScreen : IHDMI
     {
         public void Connect()
         {
-            Console.WriteLine("接上HDMI螢幕");
+            Console.WriteLine("HDMI螢幕連接成功");
         }
     }
 }
